@@ -1,0 +1,76 @@
+//NAV//
+
+nav{
+    @include flex(center,center);
+    gap: 50px;
+   }
+   
+   #burger {
+     width:30px;
+     height:2px;
+     background:white;
+     display:inline-block;
+     position:relative;
+     transition: all 0.3s ease;
+   }
+   #burgerClick{
+     width: 20px;
+     height: 20px;
+   }
+   #burger::before,
+   #burger::after {
+     content:'';
+     width:30px;
+     height:2px;
+     background:white;
+     display:inline-block;
+     position:absolute;
+    
+   }
+   #burger::before {
+     top:-7px;
+   }
+   #burger::after {
+     top:7px;
+   }
+   
+   header {
+     background-image: url(../images/thumb-1920-403408.jpg);
+     max-width:auto;
+     background-position: center;
+     background-size: contain;
+     height: 20vh;
+   }
+   ul {
+    background-color: white;
+     background-position: center;
+     background-size: contain;
+     border-radius: 30%;
+     width:15%;
+     left: 50%;
+     transform: translateX(-50%);
+     top: 45px;
+     padding:10px 0;
+     position: absolute;
+   }
+ 
+   h1{
+     color: white;
+     font-size: 2rem;
+     font-family:'gamesOfThrones-Bold' ;
+     padding-top: 10px;
+   }
+ 
+ ul li {
+     padding:10px 0;
+     text-align:center;
+     font-family:'gamesOfThrones-Bold' ;
+     a{
+       color: black;
+     }
+     
+   }
+   
+   .displayNone{
+     display: none;
+   }

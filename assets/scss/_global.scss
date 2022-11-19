@@ -1,0 +1,11 @@
+// GLOBAL//
+
+*{
+    @include reset-css;
+}
+
+@font-face {
+    font-family: 'gamesOfThrones-Bold';
+    src: url("../fonts/Game\ of\ Thrones.ttf");
+}
+

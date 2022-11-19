@@ -1,0 +1,21 @@
+#ficheGot{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: silver;
+    @include flex(center,center,column);
+    gap: 20px;
+    text-align: center;
+    h2{
+        font-size: 2rem;
+        font-family:'gamesOfThrones-Bold' ;
+        font-weight: bold;
+    }
+}
+
+.imgFicheGot{
+    height: 80vh;
+}
+
+.pFicheGot{
+    width: 50%;
+}
